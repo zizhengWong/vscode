@@ -9,8 +9,9 @@
 		  "-std=c++17",
 		  "-stdlib=libc++",
 		  "${fileDirname}/${fileBasenameNoExtension}.cpp",
+		  "-g",
 		  "-o",
-		  "${fileDirname}/${fileBasenameNoExtension}.out",
+		  "${fileDirname}/build/${fileBasenameNoExtension}.out",
 		  "--debug"
 		],
 		"group": {

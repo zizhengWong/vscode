@@ -8,7 +8,7 @@
         "type": "lldb",
         "request": "launch",
         "name": "Debug",
-        "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+        "program": "${fileDirname}/build/${fileBasenameNoExtension}.out",
         "args": [],
         "cwd": "${workspaceFolder}",
         "preLaunchTask": "Build with clang++"
