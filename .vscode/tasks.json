@@ -11,7 +11,7 @@
 		  "${fileDirname}/${fileBasenameNoExtension}.cpp",
 		  "-g",
 		  "-o",
-		  "${fileDirname}/build/${fileBasenameNoExtension}.out",
+		  "${fileDirname}/${fileBasenameNoExtension}.out",
 		  "--debug"
 		],
 		"group": {

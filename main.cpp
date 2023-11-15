@@ -1,19 +1,18 @@
-#include "header/stdc++.h"
-// #include<iostream>
-// #include<string>
-// #include<vector>
+#include<iostream>
+#include<string>
+#include<vector>
 
 
 int main(){
     int b = 1;
     auto a = b+1;
-    cout << a << endl;
-    vector<string> msg{"Hello", "C++", "World", "from", "VS Code"};
+    std::cout << a << std::endl;
+    std::vector<std::string> msg{"Hello", "C++", "World", "from", "VS Code"};
     int len = msg.size();
-    cout << "长度" << len << endl;
+    std::cout << "长度" << len << std::endl;
     for (int i=0; i<4; i++){
         // ms.push_back("a");
-        cout << i << endl;
+        std::cout << i << std::endl;
     }
 
     return 0;
